@@ -1,0 +1,49 @@
+$color-primary: #7A4A55;
+
+$color-primary-light-1: #ca6875;    
+$color-primary-light-2: #c69aa4;
+$color-primary-dark: #6a252e;
+
+$color-secondary-1: #4C94BD;
+$color-secondary-2: #88b7d3;
+
+$color-text: #584445;
+
+$color-black: #111;
+$color-white: #fff;
+$color-grey: #e1e2dd;
+
+$font-primary: 'Signika', sans-serif;
+
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-primary;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: $color-primary;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: [full-start] minmax(4rem, 1fr) [center-start] repeat(8,
+            [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(4rem, 1fr) [full-end];
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}

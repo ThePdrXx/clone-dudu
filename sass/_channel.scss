@@ -1,0 +1,38 @@
+.channel {
+    background-color: #FFF5F8;
+  
+    .container {
+      display: grid;
+      grid-template-columns: 1.1fr 2fr;
+      grid-column-gap: 10rem;
+    }
+  
+    .tertiary {
+      
+      &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 10rem;
+
+
+      
+      }
+  
+      &__image-box {
+        padding: 6rem 0 6rem 9rem;
+
+  
+        &__image {
+          height: 32rem;
+        }
+      }
+    }
+  }
+
+  .hashtag {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $color-primary-light-2;
+    margin-top: 3rem;
+  }

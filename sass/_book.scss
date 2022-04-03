@@ -1,0 +1,28 @@
+.book {
+    background-color: $color-grey;
+  
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+  
+    .secondary {
+      
+      &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 15rem 30rem 15rem 0;
+      
+      }
+  
+      &__image-box {
+        padding: 6rem 0 6rem 9rem;
+
+  
+        &__image {
+          height: 46rem;
+        }
+      }
+    }
+  }

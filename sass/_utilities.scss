@@ -1,0 +1,133 @@
+.btn {
+  color: $color-white;
+  border-radius: 25px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1.5rem 4.5rem 1.5rem 4.5rem;
+  box-shadow: 0 4px 6px rgba($color-black, 0.2);
+  cursor: pointer;
+  margin-bottom: .5rem;
+
+  &__red {
+    background-color: $color-primary;
+
+    &:hover {
+      background-color: $color-primary-dark;
+    }
+  }
+
+  &__blue {
+      background-image: linear-gradient(to right bottom, $color-secondary-1, $color-secondary-2);
+  }
+}
+.heading-primary {
+  font-size: 4.5rem;
+  color: $color-primary;
+  font-weight: 700;
+}
+.heading-secondary {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+  cursor: pointer;
+
+  &:hover {
+    color: $color-primary-light-2;
+  }
+}
+
+.heading-quartenary {
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ddcad0;
+  margin-bottom: 10rem;
+  margin-right: 8rem;
+
+}
+
+.paragraph-primary {
+  font-size: 2rem;
+  font-weight: 500;
+  color: $color-text;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.card-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ddcad0;
+  width: 38rem;
+  height: 40rem;
+  border-radius: 25px 25px 25px 25px;
+
+  &__image {
+    width: 38rem;
+    height: 38rem;
+    border-radius: 25px 0 0 0;
+    margin-bottom: 1rem;
+  }
+}
+
+.card-secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ddcad0;
+  width: 30.4rem;
+  height: 34rem;
+  border-radius: 25px 25px 25px 25px;
+
+  &__image {
+    align-items: start;
+    width: 30.4rem;
+    height: 32rem;
+    border-radius: 25px 0 0 0;
+    margin-bottom: 1rem;
+  }
+}
+
+.card-tertiary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-primary;
+  width: 32rem;
+  height: 34rem;
+  border-radius: 25px 25px 25px 25px;
+
+  &__image {
+    align-items: start;
+    width: 32rem;
+    height: 34rem;
+    border-radius: 25px 0 0 0;
+    margin-bottom: 1rem;
+  }
+}
+.arrow-box {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding: 1px 24px 9px 0;
+  margin-left: 1rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 4px solid $color-primary;
+  border-radius: 50px;
+  cursor: pointer;
+
+  &:hover {
+    color: $color-primary-light-2;
+    border: 4px solid $color-primary-light-2;
+  }
+}

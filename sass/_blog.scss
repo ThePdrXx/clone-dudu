@@ -1,0 +1,19 @@
+.blog {
+    background-color: #F0e8eb;
+    padding: 10rem;
+
+    &__heading-primary {
+        margin-left: 16rem;
+        margin-bottom: 4rem;
+    }
+
+    &__heading-secondary {
+        padding: 5rem 0 0 15rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 4rem;
+    }
+}

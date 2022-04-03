@@ -1,0 +1,14 @@
+{
+  "name": "clone-dudu",
+  "version": "1.0.0",
+  "description": "Landing page for clone",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Pedro",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

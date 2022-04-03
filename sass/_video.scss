@@ -1,0 +1,21 @@
+.video {
+    display: grid;
+    grid-row: 3 / 4;
+    
+    .secondary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 8rem;
+
+        &__image-box {
+            padding: 4rem 0;
+
+            &__spfc {
+                height: 70rem;
+            }
+        }
+
+    }
+}
+

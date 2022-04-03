@@ -1,0 +1,11 @@
+.course {
+    padding: 5rem 5rem;
+    background-color: #F0e8eb;
+
+    &__title {
+        align-content: center;
+        margin-bottom: 2rem;
+        display: flex;
+        background-color: #333;
+    }
+}

@@ -1,0 +1,13 @@
+.calls {
+        padding: 10rem;
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 6rem;
+    }
+
+    .title {
+        margin-top: 10rem;
+    }
+}
